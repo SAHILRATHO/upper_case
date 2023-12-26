@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upper_case</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>Upper case</h1>
+
+        <div class="text">
+            <label for="v1"> Enter Tha Value:</label>
+            <input type="number" id="v1"><br> <br>
+        </div>
+
+        <div class="btn">
+            <input type="button" id="enter" value="Capitalize" onclick="uppercase()">
+
+        </div>
+        <div class="text">
+            <p id="sum"></p>
+        </div>
+    </div>
+    <script>
+        function uppercase() {
+            var str = parseFloat(document.getElementById("v1").value)
+            var letterfirst = str.charAt(0).toUpperCase()
+                var allstr = str.slice(1)
+                var prin = letterfirst + allstr
+                document.getElementById("sum").innerHTML = `Capitalize String:- ${prin}`
+
+        }
+        
+
+    </script>
+</body>
+
+</html>

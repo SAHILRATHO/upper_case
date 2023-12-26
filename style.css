@@ -1,0 +1,63 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.main {
+    width: 60%;
+    align-items: center;
+    flex-direction: column;
+    background-color: red;
+    justify-items: center;
+    margin-top: 8%;
+    padding: 60px;
+    
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline 3px  blue ;
+}
+
+input {
+    font-weight: bold;
+}
+
+input:hover {
+    border: 2px solid blue;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 15px 5px;
+}
+
+#enter {
+    border-radius: 30px;
+    font-weight: bold;
+    height: 35px;
+    width: 15%;
+    background-color: rgb(255, 166, 0);
+   
+}
+
+#enter:hover {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+
+}
+
+.text {
+    text-align: center;
+    align-items: center;
+    color: white;
+    padding: 10px 10px;
+    font-weight: bold;
+}
